@@ -1,0 +1,18 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        mainColor: '#e8786e',
+        black: '#555',
+        lightColor: '#777',
+        bg: '#fceae9'
+      },
+      fontFamily: {
+        Nunito: 'Nunito'
+      }
+    }
+  },
+  plugins: []
+}
