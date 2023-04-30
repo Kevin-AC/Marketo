@@ -3,7 +3,7 @@ import Title from '../Components/Title'
 
 function OurPortfolio () {
   return (
-    <section className='w-full flex flex-col items-center justify-center '>
+    <section >
       <Title title='Our ' span='Portfolio' />
       <div className='flex flex-col items-center justify-center lg:flex-row flex-wrap gap-3'>
         <CardPortfolio title='Web Design' paragraph='1st may,2021' number='01' img='port-img1' />

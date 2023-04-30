@@ -4,8 +4,8 @@ import Title from '../Components/Title'
 
 function About () {
   return (
-    <section className='flex flex-col  items-center justify-center py-4'>
-      <Title title='Us' span='About' style='flex flex-row-reverse gap-2' />
+    <section>
+      <Title title='Us' span='About' style='flex flex-row-reverse ' />
       <div className='flex flex-col lg:flex-row gap-4'>
         <img src="/assets/about-img.png" alt="about ilustration" />
         <div className='flex flex-col gap-4'>

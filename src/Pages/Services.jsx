@@ -3,7 +3,7 @@ import Title from '../Components/Title'
 
 function Services () {
   return (
-    <section className='flex flex-col gap-4 items-center justify-center py-4'>
+    <section>
       <Title title='Our ' span='Services'/>
       <div className='flex flex-wrap gap-4'>
         <Card
