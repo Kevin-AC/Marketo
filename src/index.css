@@ -19,6 +19,18 @@
   .btn:hover::before{
     @apply left-0 w-full
   }
+  .boxPortfolio{
+    @apply w-full h-[250px] lg:w-80 lg:h-72 border shadow-md rounded-lg overflow-hidden relative
+  }
+  .boxPortfolio__Content{
+    @apply w-full h-full  text-center absolute flex flex-col items-center justify-center top-10 opacity-0 hover:top-0 hover:opacity-100 delay-300
+  }
+  .boxPortfolio::before{
+    @apply h-36 w-36 rounded-full content-['']  absolute -top-14 -right-12 bg-white duration-500 
+  }
+  .boxPortfolio:hover::before{
+    @apply h-[500px] w-[500px] -top-20 -right-16 duration-300
+  }
 
 @tailwind utilities;
 

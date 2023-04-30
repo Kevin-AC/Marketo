@@ -11,6 +11,9 @@ export default {
       },
       fontFamily: {
         Nunito: 'Nunito'
+      },
+      clipPath: {
+        circle: 'circle(30% at 93% 0)'
       }
     }
   },
