@@ -7,7 +7,8 @@ export default {
         mainColor: '#e8786e',
         black: '#555',
         lightColor: '#777',
-        bg: '#fceae9'
+        bg: '#fceae9',
+        formBox: '#f7f7f7'
       },
       fontFamily: {
         Nunito: 'Nunito'
