@@ -11,7 +11,7 @@
     @apply text-lightColor  hover:text-mainColor w-full h-[40px] hover:bg-bg flex items-center pl-2 rounded-sm
   }
   .btn{
-    @apply mt-2 px-5 py-[6px] max-w-[131px] cursor-pointer text-white bg-mainColor rounded-lg relative z-0 overflow-hidden
+    @apply mt-2 px-5 py-[6px]  cursor-pointer text-white bg-mainColor rounded-lg relative z-0 overflow-hidden
   }
   .btn::before{
     @apply content-[''] absolute top-0 right-0 h-full w-0 bg-black -z-10 ease-out duration-200
@@ -34,11 +34,8 @@
   .cardPricing{
     @apply w-full h-auto border shadow-lg flex flex-col items-center gap-5 rounded-lg py-4
   }
-  .cardPricing span, p{
-    @apply text-mainColor font-light text-base
-  }
-  .cardPricing p{
-    @apply text-3xl font-semibold
+  .formInput{
+    @apply w-full border h-10 placeholder:pl-2 text-sm text-black bg-formBox
   }
 
 @tailwind utilities;
@@ -87,3 +84,7 @@ body {
   animation-duration: 15s;
 }
 
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+  }

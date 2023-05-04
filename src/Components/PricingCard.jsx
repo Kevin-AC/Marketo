@@ -5,7 +5,7 @@ export function PricingCard ({ type, price, data, domains, img }) {
     <article className='cardPricing'>
       <h3 className='text-black font-semibold text-xl'>{type}</h3>
       <img className='w-44' src={`/assets/${img}.png`} alt="" />
-      <p><span>$</span>{price}<span>/Mo</span></p>
+      <p className='text-3xl text-mainColor font-semibold'><span className='text-base font-light'>$</span >{price}<span className='text-base font-light'>/Mo</span></p>
       <ul className='flex flex-col gap-4 text-center text-lightColor text-sm'>
         <li >{data} Data</li>
         <li>{domains} Domains</li>
