@@ -2,6 +2,7 @@ import Header from './Components/Header'
 import About from './Pages/About'
 import { Clients } from './Pages/Clients'
 import { Contact } from './Pages/Contact'
+import { Footer } from './Pages/Footer'
 import Hero from './Pages/Hero'
 import OurPortfolio from './Pages/OurPortfolio'
 import { OurPricing } from './Pages/OurPricing'
@@ -17,6 +18,7 @@ function App () {
       <OurPricing />
       <Clients />
       <Contact/>
+      <Footer />
     </main>
   )
 }

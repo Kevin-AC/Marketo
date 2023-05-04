@@ -5,7 +5,7 @@ import Map from '../Components/Map'
 import { Form } from '../Components/Form'
 export function Contact () {
   return (
-    <section className='w-full pb-44 flex flex-col gap-4'>
+    <section className='w-full flex flex-col gap-4'>
       <Title title='Us' span='Contact' style='flex flex-row-reverse gap-2' />
       <div className='w-full h-auto flex flex-col gap-4 '>
         <Card
