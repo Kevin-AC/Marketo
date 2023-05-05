@@ -4,11 +4,14 @@
   section{
     @apply flex flex-col items-center justify-center px-[5%] lg:px-[9%] lg:flex-row
   }
+  .navMenu{
+    @apply bg-white w-[70%] h-auto absolute top-20 right-4 z-50 lg:top-0 lg:relative lg:bg-transparent lg:w-auto
+  }
   .Hmenu{
-    @apply cursor-pointer text-xl text-mainColor bg-bg rounded-md py-[7px] px-[12px]  hover:bg-mainColor hover:text-white
+    @apply cursor-pointer text-xl text-mainColor bg-bg rounded-md py-[7px] px-[12px]  hover:bg-mainColor hover:text-white lg:hidden
   }
   .navList li{
-    @apply text-lightColor  hover:text-mainColor w-full h-[40px] hover:bg-bg flex items-center pl-2 rounded-sm
+    @apply text-lightColor  hover:text-mainColor w-full h-[40px] hover:bg-bg flex items-center pl-2 rounded-sm lg:text-lg lg:hover:bg-white
   }
   .btn{
     @apply mt-2 px-5 py-[6px]  cursor-pointer text-white bg-mainColor rounded-lg relative z-0 overflow-hidden
