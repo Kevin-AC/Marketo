@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
   section{
-    @apply flex flex-col items-center justify-center px-[5%] xl:px-[9%]
+    @apply flex flex-col items-center justify-center px-[5%] lg:px-[9%] lg:flex-row
   }
   .Hmenu{
     @apply cursor-pointer text-xl text-mainColor bg-bg rounded-md py-[7px] px-[12px]  hover:bg-mainColor hover:text-white
