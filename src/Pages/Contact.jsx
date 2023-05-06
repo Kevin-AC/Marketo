@@ -7,7 +7,7 @@ export function Contact () {
   return (
     <section className='w-full flex flex-col gap-4'>
       <Title title='Us' span='Contact' style='flex flex-row-reverse gap-2' />
-      <div className='w-full h-auto flex flex-col gap-4 '>
+      <div className='w-full h-auto grid sm:grid-cols-3 gap-4 '>
         <Card
           title='Our Number'
           icon='fas fa-phone'

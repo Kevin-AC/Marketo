@@ -5,7 +5,7 @@ export function OurPricing () {
   return (
     <section className='w-full'>
       <Title title='Our ' span='Pricing' />
-      <div className='w-full flex flex-col gap-4'>
+      <div className='w-full grid sm:grid-cols-3 gap-4'>
         <PricingCard
         type='Basic Plan'
         price='30.99'
