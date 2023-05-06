@@ -9,7 +9,7 @@ import { OurPricing } from './Pages/OurPricing'
 import Services from './Pages/Services'
 function App () {
   return (
-    <main className="w-screen h-auto bg-white flex flex-col items-center justify-center gap-5 ">
+    <main className="w-screen h-auto bg-white flex flex-col items-center justify-center gap-10 ">
       <Header/>
       <Hero/>
       <Services />
