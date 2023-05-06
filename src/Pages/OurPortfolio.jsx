@@ -5,7 +5,7 @@ function OurPortfolio () {
   return (
     <section >
       <Title title='Our ' span='Portfolio' />
-      <div className='flex flex-col items-center justify-center lg:flex-row flex-wrap gap-3'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 '>
         <CardPortfolio title='Web Design' paragraph='1st may,2021' number='01' img='port-img1' />
         <CardPortfolio title='Web Design' paragraph='1st may,2021' number='02' img='port-img2' />
         <CardPortfolio title='Web Design' paragraph='1st may,2021' number='03' img='port-img3' />
