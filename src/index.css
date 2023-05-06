@@ -67,7 +67,7 @@ body {
     bottom: 0; right: 0; left: 0;
     height: 10rem;
     background-size: 110rem 12rem;
-    background:url(assets/clouds.png) repeat-x;
+    background:url(/assets/clouds.png) repeat-x;
     animation: cloud 10s linear infinite;
 }
 @keyframes cloud{
@@ -82,7 +82,7 @@ body {
   opacity: .5;
   height: 12rem;
   background-size:110rem 12rem;
-  background:url(assets/clouds.png);
+  background:url(/assets/clouds.png);
   animation-direction: reverse;
   animation-duration: 15s;
 }
