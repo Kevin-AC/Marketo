@@ -1,7 +1,7 @@
 export function Footer () {
   return (
     <footer className="w-full h-auto p-4 bg-bg">
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:mt-5">
+      <div className="grid justify-items-center  grid-cols-2 lg:grid-cols-4 gap-4 sm:mt-5">
         <ul className="flex flex-col gap-2 text-lightColor text-sm">
           <h3 className="text-2xl font-semibold text-black mb-4">Our Branches</h3>
           <li><a href="#"><i className="fas fa-map-marker-alt text-mainColor"></i> India</a></li>

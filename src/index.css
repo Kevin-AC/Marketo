@@ -5,10 +5,10 @@
     @apply flex flex-col items-center justify-center px-[5%] lg:px-[9%]
   }
   .navMenu{
-    @apply bg-white w-[70%] h-auto absolute top-20 right-4 z-50 lg:top-0 lg:relative lg:bg-transparent lg:w-auto
+    @apply bg-white w-[70%] h-auto absolute top-20 right-4 z-50 sm:top-0 sm:relative sm:bg-transparent sm:w-auto
   }
   .Hmenu{
-    @apply cursor-pointer text-xl text-mainColor bg-bg rounded-md py-[7px] px-[12px]  hover:bg-mainColor hover:text-white lg:hidden
+    @apply cursor-pointer text-xl text-mainColor bg-bg rounded-md py-[7px] px-[12px]  hover:bg-mainColor hover:text-white sm:hidden
   }
   .navList li{
     @apply text-lightColor  hover:text-mainColor w-full h-[40px] hover:bg-bg flex items-center pl-2 rounded-sm lg:text-lg lg:hover:bg-white
@@ -65,7 +65,7 @@ body {
 .cloud{
     position: absolute;
     bottom: 0; right: 0; left: 0;
-    height: 7rem;
+    height: 10rem;
     background-size: 110rem 12rem;
     background:url(assets/clouds.png) repeat-x;
     animation: cloud 10s linear infinite;
@@ -80,7 +80,7 @@ body {
 }
 .cloud-1{
   opacity: .5;
-  height: 10rem;
+  height: 12rem;
   background-size:110rem 12rem;
   background:url(assets/clouds.png);
   animation-direction: reverse;
