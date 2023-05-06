@@ -3,9 +3,9 @@ import Title from '../Components/Title'
 
 function Services () {
   return (
-    <section>
+    <section className='flex-col w-full'>
       <Title title='Our ' span='Services'/>
-      <div className='flex flex-wrap gap-4'>
+      <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
         <Card
           title='Web Desing'
           img='s-1'
