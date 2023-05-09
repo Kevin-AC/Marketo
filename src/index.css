@@ -40,6 +40,9 @@
   .formInput{
     @apply w-full border h-10 placeholder:pl-2 text-sm text-black bg-formBox
   }
+  .footerUl li{
+    @apply hover:scale-110 
+  }
 
 @tailwind utilities;
 
