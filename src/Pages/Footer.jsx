@@ -38,7 +38,7 @@ export function Footer () {
         </ul>
       </div>
       <div className="text-center w-full my-10">
-        <p>Create BY <a className="text-mainColor" href="">Kevin Argumedo </a></p>
+        <p>Create BY <a className="text-mainColor" target="_blank" href="https://github.com/Kevin-AC" rel="noreferrer">Kevin Argumedo </a></p>
       </div>
 
     </footer>
