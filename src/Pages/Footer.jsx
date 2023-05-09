@@ -12,13 +12,13 @@ export function Footer () {
         </ul>
         <ul className="flex flex-col gap-2 text-lightColor text-sm footerUl">
           <h3 className="text-2xl font-semibold text-black mb-4">Quick Links</h3>
-          <li><a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> home </a></li>
-          <li><a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> services </a></li>
-          <li> <a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> about </a></li>
-          <li><a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> portfolio </a></li>
-          <li><a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> pricing </a></li>
-          <li><a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> review </a></li>
-          <li><a href="#"> <i className="fas fa-arrow-right text-mainColor"></i> contact </a></li>
+          <li><a href="#hero"> <i className="fas fa-arrow-right text-mainColor"></i> home </a></li>
+          <li><a href="#services"> <i className="fas fa-arrow-right text-mainColor"></i> services </a></li>
+          <li> <a href="#about"> <i className="fas fa-arrow-right text-mainColor"></i> about </a></li>
+          <li><a href="#portfolio"> <i className="fas fa-arrow-right text-mainColor"></i> portfolio </a></li>
+          <li><a href="#pricing"> <i className="fas fa-arrow-right text-mainColor"></i> pricing </a></li>
+          <li><a href="#review"> <i className="fas fa-arrow-right text-mainColor"></i> review </a></li>
+          <li><a href="#contact"> <i className="fas fa-arrow-right text-mainColor"></i> contact </a></li>
         </ul>
         <ul className="flex flex-col gap-2 text-lightColor text-sm footerUl">
           <h3 className="text-2xl font-semibold text-black mb-4">Our Services</h3>

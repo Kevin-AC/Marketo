@@ -3,7 +3,7 @@ import Title from '../Components/Title'
 
 function Services () {
   return (
-    <section className='flex-col w-full'>
+    <section id='services' className='flex-col w-full -scroll-mt-10'>
       <Title title='Our ' span='Services'/>
       <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
         <Card

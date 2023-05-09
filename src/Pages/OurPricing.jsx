@@ -3,7 +3,7 @@ import Title from '../Components/Title'
 
 export function OurPricing () {
   return (
-    <section className='w-full'>
+    <section id='pricing' className='w-full mb-10 -scroll-mt-10'>
       <Title title='Our ' span='Pricing' />
       <div className='w-full grid sm:grid-cols-3 gap-4'>
         <PricingCard

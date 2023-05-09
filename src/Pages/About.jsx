@@ -4,7 +4,7 @@ import Title from '../Components/Title'
 
 function About () {
   return (
-    <section>
+    <section id='about' className='-scroll-mt-14'>
       <Title title='Us' span='About' style='flex flex-row-reverse  ' />
       <div className='flex flex-col items-center mt-8 sm:flex-row gap-4 lg:gap-8'>
         <img className='w-auto sm:w-96 lg:w-[450px]' src="/assets/about-img.png" alt="about ilustration" />
